@@ -1,0 +1,4 @@
+"""
+Suppose the data is 
+
+""
