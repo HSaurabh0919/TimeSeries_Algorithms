@@ -7,7 +7,7 @@ pm_ax=plt.subplot2grid(layout,(0,0),colspan=2) #For seasonal_decomposition
 mv_ax=plt.subplot2grid(layout,(1,0),colspan=2)
 fig_ax=plt.subplot2grdi(layout,(2,0),colspan=2)
 
-# Automatic decomposing through seasonal decomposition 
+# Automatic decomposing through seasonal  decomposition 
 plt.figure(num=None, figsize=(50, 20), dpi=80, facecolor='w', edgecolor='k')
 series = air_pollution.pollution_today[:365]
 result = seasonal_decompose(series, model='multiplicative')
